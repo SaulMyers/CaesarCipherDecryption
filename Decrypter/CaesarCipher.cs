@@ -7,6 +7,12 @@ namespace Decrypter
         private int maxLength;
         private int cipherOffset;
         private char[] charSet = "abcdefghijklmnopqrstuvwxyz".ToCharArray();
+
+        /// <summary>
+        /// Caesar Cipher constructor
+        /// </summary>
+        /// <param name="iMaxLength"></param>
+        /// <param name="iCipherOffset"></param>
         public CaesarCipher(int iMaxLength, int iCipherOffset)
         {
             maxLength = iMaxLength;
